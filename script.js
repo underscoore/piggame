@@ -61,7 +61,7 @@ btnRollDice.addEventListener("click", function(){
 	if(playing) {
 	const dice = Math.trunc(Math.random()*6) + 1;
 	diceImg.classList.remove("hidden");
-	diceImg.src= `dice-${dice}.png`;
+	diceImg.src= `https://raw.githubusercontent.com/jonasschmedtmann/complete-javascript-course/master/07-Pig-Game/final/dice-${dice}.png`;
 
 	if(dice !== 1){
 		currentScore += dice;
