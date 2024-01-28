@@ -40,6 +40,8 @@ const init = function() {
 	player0.classList.add("player--active");
 	player1.classList.remove("player--active");
 
+	diceImg.classList.add("hidden")
+
 
 }
 
