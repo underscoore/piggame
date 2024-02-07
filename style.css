@@ -22,8 +22,9 @@ body {
   justify-content: center;
 }
 
-/* LAYOUT */
+/* LAYOUT changes by vijay */
 main {
+
   position: relative;
   width: 100rem;
   height: 60rem;
